@@ -1,0 +1,90 @@
+* {
+    background-color: rgb(25, 25, 25);
+}
+.logomalcsta {
+    height: 100px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    -webkit-animation: fadeIn 1s;
+    -webkit-animation-delay: 1s;
+    opacity: 0;
+    -webkit-animation-fill-mode: forwards;
+}
+.infosheet {
+    color: antiquewhite;
+    font-family: system-ui;
+    text-align: center;
+    margin-top: 30px;
+    animation: fadeIn 1s;
+    -webkit-animation: fadeIn 1s;
+    -webkit-animation-delay: 3s;
+    opacity: 0;
+    -webkit-animation-fill-mode: forwards;
+   
+}
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+.infosheet2 {
+    color: antiquewhite;
+    font-family: system-ui;
+    text-align: center;
+    margin-top: 30px;
+    animation: fadeIn 1s;
+    -webkit-animation: fadeIn 1s;
+    -webkit-animation-delay: 5s;
+    opacity: 0;
+    -webkit-animation-fill-mode: forwards;
+}    
+.links {
+    cursor: pointer;
+    line-height: 40px;
+    color:antiquewhite;
+    font-family: system-ui;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    font-size: small;  
+}
+.link1 {
+    animation: fadeIn 1s;
+    -webkit-animation: fadeIn 1s;
+    -webkit-animation-delay: 6s;
+    opacity: 0;
+    -webkit-animation-fill-mode: forwards;
+}
+.link2 {
+    animation: fadeIn 1s;
+    -webkit-animation: fadeIn 1s;
+    -webkit-animation-delay: 7s;
+    opacity: 0;
+    -webkit-animation-fill-mode: forwards;
+}
+.link3 {
+    animation: fadeIn 1s;
+    -webkit-animation: fadeIn 1s;
+    -webkit-animation-delay: 8s;
+    opacity: 0;
+    -webkit-animation-fill-mode: forwards;
+}
+.footermessage {
+    color:antiquewhite;
+    font-family: system-ui;
+    text-align: center;
+    margin-left: auto;
+    margin-top: 430px;
+    font-size: small;
+    animation: fadeIn 1s;
+    -webkit-animation: fadeIn 1s;
+    -webkit-animation-delay: 9s;
+    opacity: 0;
+    -webkit-animation-fill-mode: forwards;
+
+}
